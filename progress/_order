@@ -1,6 +1,7 @@
 10-the-war-within/_.yml
     10-the-war-within/storyline_11_0.yml
     10-the-war-within/sojourner.yml
+    10-the-war-within/renown.yml
     10-the-war-within/seasonal.yml
 
 09-dragonflight/_.yml
@@ -23,6 +24,7 @@
     08-shadowlands/raid_skips.yml
 
 07-battle-for-azeroth/_.yml
+    07-battle-for-azeroth/zone_quests.yml
     07-battle-for-azeroth/war_campaign.yml
     07-battle-for-azeroth/patch_8_2.yml
     07-battle-for-azeroth/patch_8_3.yml
@@ -96,7 +98,7 @@ dungeons.yml
     01-the-burning-crusade/dungeons.yml The Burning Crusade
 
 raid_skips.yml
-    09-dragonflight/raid_skips.yml
+    09-dragonflight/raid_skips.yml Dragonflight
     08-shadowlands/raid_skips.yml Shadowlands
     07-battle-for-azeroth/raid_skips.yml Battle for Azeroth
     06-legion/raid_skips.yml Legion
