@@ -1,15 +1,34 @@
 name: Unavailable
 groups:
 
-- name: Promotions
+- name: "Events"
   things:
-  - 1959 # Compass Rose (Hearthstone Anniversary)
-  - 896 # Primal Flamesaber (Heroes of the Storm)
-  - 439 # Tyrael's Charger (Annual Pass)
+    - 2116 # Remembered Golden Gryphon
+    - 2117 # Remembered Wind Rider
 
-- name: Recruit-A-Friend
+- name: "Promotions"
   things:
-  - 454 # Cindermane Charger
-  - 568 # Emerald Hippogryph
-  - 455 # Obsidian Nightwing
-  - 382 # X-53 Touring Rocket
+    - 1959 # Compass Rose (Hearthstone Anniversary)
+    - 896 # Primal Flamesaber (Heroes of the Storm)
+    - 439 # Tyrael's Charger (Annual Pass)
+
+- name: "Promotion (China)"
+  things:
+    - 2255 # Golden Ashes of Al'ar
+    - 2262 # Harmonious Salutations Bear
+    - 2478 # Blazing Royal Fire Hawk
+
+- name: "Recruit-A-Friend"
+  things:
+    - 454 # Cindermane Charger
+    - 568 # Emerald Hippogryph
+    - 455 # Obsidian Nightwing
+    - 382 # X-53 Touring Rocket
+
+- name: "Store"
+  things:
+    - 2304 # Chaos-Forged Gryphon
+    - 2305 # Chaos-Forged Hippogryph
+    - 2307 # Chaos-Forged Dreadwing
+    - 2308 # Chaos-Forged Wind Rider
+    - 2265 # Trader's Gilded Brutosaur

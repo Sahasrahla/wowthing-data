@@ -4,3 +4,19 @@ groups:
 - name: "Isle of Dorn"
   things:
   - 2165 # Soaring Meaderbee
+
+- name: "Siren Isle"
+  things:
+    - 2333 # Soweezi's Vintage Waveshredder
+
+- name: "Undermine"
+  things:
+    - 2290 # Asset Advocator (25 Miscellanous Mechanica)
+    - 2283 # Innovation Investigator (25 Miscellanous Mechanica)
+    - 2292 # Margin Manipulator (25 Miscellanous Mechanica)
+    - 2288 # Personalized Goblin S.C.R.A.P.per (333 Empty Kaja'Cola Can -> Sifted Pile of Scrap)
+
+- name: "Revisited Horrific Visions"
+  things:
+    - 2501 # Corruption of the Aspects (40,000)
+    - 1321 # Wicked Swarmer (20,000)

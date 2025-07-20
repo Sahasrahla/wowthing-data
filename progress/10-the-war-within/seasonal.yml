@@ -1,20 +1,8 @@
 name: "Seasonal"
 groups:
 
-- name: "Upgrade Tutorial"
-  icon: "item/221269"
-  iconText: "Up"
-  lookup: none
-  minimumLevel: 80
-  type: quest
-  data:
-    0:
-      - id: 82042
-      - id: 82050
-      - id: 82059
-
 - name: "Season 1"
-  icon: "achievement/40732"
+  icon: "achievement/40723" # Web-Wrapped in the Finest Silks
   iconText: "S1"
   lookup: none
   minimumLevel: 80
@@ -24,3 +12,98 @@ groups:
       - id: 81595 # Seasonal Start
       - id: 81596 # Delve Hunter
       - id: 83500 # Zekvir, Hand of the Harbinger
+
+- name: "Season 2"
+  icon: "achievement/41665" # Dressed to the Mines
+  iconText: "S2"
+  lookup: none
+  minimumLevel: 80
+  type: quest
+  data:
+    0:
+      - id: 86396 # The Better Part of Valorstones
+      - id: 86399 # Don't Undermine the Crests
+      - id: 86401 # Crest Transmutation
+
+      - name: separator
+
+      - id: 86369 # A Sparkling Fortune
+        description: "{price:1|1230905}" # Fractured Spark of Fortunes
+
+      - id: 90660 # A Golden Circumstance
+        description: "{price:1|1230905}" # Fractured Spark of Fortunes
+
+      - name: separator
+
+      - id: 85242 # Seasonal Refresher
+        name: "Seasonal Refresher"
+
+      - id: 85243 # I Want My Hat Back
+        name: "I Want My Hat Back"
+
+      - id: 85244 # Defeating the Underpin
+        name: "Defeating the Underpin"
+
+- name: "DISC"
+  icon: "achievement/42241"
+  iconText: "DISC"
+  lookup: none
+  minimumLevel: 80
+  type: mixed
+  data:
+    0:
+      - type: quest
+        id: 91009 # Durable Information Securing Container
+        description: "Gives {item:242664}"
+
+      - type: quest
+        id: 91026 # Gathering an Upgrade
+        description: "Upgrades belt to item level 694"
+
+      - type: quest
+        id: 91030 # New Titan Directives
+        description: "Upgrades belt to item level 697"
+
+      - type: quest
+        id: 91031 # Pushing it to the Limit
+        description: "Upgrades belt to item level ???"
+
+      # - type: quest
+      #   id: 91033 # Monitoring 'Construct'ing
+      #   description: "Upgrades belt to item level ???"
+
+      # - type: quest
+      #   id: 91035 # Construct De-Escalation
+      #   description: "Upgrades belt to item level ???"
+
+      - name: separator
+      
+      - type: "accountquest"
+        id: 90953
+        name: "Charged Crystal"
+        description: "Complete Nightfall Sanctum delve"
+      
+      - type: "accountquest"
+        id: 90951
+        name: "Charged Touch"
+        description: "Complete Kriegval's Rest delve"
+      
+      - type: "accountquest"
+        id: 90947
+        name: "Critical Chain"
+        description: "Complete Skittering Breach delve"
+
+      - type: "accountquest"
+        id: 90950
+        name: "Electric Current"
+        description: "Complete The Spiral Weave delve"
+
+      - type: "accountquest"
+        id: 90948
+        name: "Spark Burst"
+        description: "Complete Fungal Folly delve"
+
+      - type: "accountquest"
+        id: 90949
+        name: "Static Charge"
+        description: "Complete Sidestreet Sluice delve"

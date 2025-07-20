@@ -1,12 +1,29 @@
 name: "Instances"
 groups:
 
+- name: "Delves"
+  things:
+    - 2296 # Delver's Gob-Trotter (I Want My Hat Back quest)
+
 - name: "Dungeons"
   things:
-    - 2119 # Stonevault Mechsuit, The Stonevault
-    - 2204 # Wick, Darkflame Cleft
+    - 2119 # Stonevault Mechsuit (The Stonevault)
+    - 2204 # Wick (Darkflame Cleft)
   
 - name: "Raids"
   things:
     - 2219 # Sureki Skyrazor (Queen Ansurek, Nerub-ar Palace)
     - 2223 # Ascendant Skyrazor (Mythic Queen Ansurek, Nerub-ar Palace)
+    - 2507 # Prototype A.S.M.R. (Chrome King Gallywix, Liberation of Undermine)
+    - 2487 # The Big G (Mythic Chrome King Gallywix, Liberation of Undermine)
+
+- name: "Visions"
+  things:
+    - 1315 # Mail Muncher (both from mailboxes)
+    - 2178 # Nesting Swarmite (both from trash piles)
+    - 2502 # Void-Crystal Panther (Orgrimmar > JC crafted)
+    - 2497 # Void-Forged Stallion (Stormwind)
+    - 2496 # Void-Scarred Gryphon (Stormwind)
+    - 2498 # Void-Scarred Pack Mother (Orgrimmar)
+    - 2499 # Void-Scarred Windrider (Orgrimmar)
+    - 1948 # Voidfire Deathcycle (both)

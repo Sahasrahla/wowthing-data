@@ -11,4 +11,38 @@ groups:
 
 - name: "Dornogal"
   things:
+    - 4586 # Brown Leafbug
+    - 4546 # Sandstone Ramolith
     - 4543 # Sir Shady Mrrgglton Junior
+    - 4495 # Skippy
+    - 4524 # Starkstripe Hopper
+    - 4511 # Venomwing
+
+- name: "Hallowfall"
+  things:
+    - 4463 # Tiberius
+
+- name: "Ringing Deeps"
+  things:
+    - 4598 # Coppers
+    - 4597 # Wobbles
+
+- name: "Siren Isle"
+  things:
+    - 4727 # Skitterbite
+
+- name: "Undermine"
+  things:
+    - 4645 # Bilgewater Junkhauler
+    - 4649 # Blackwater Kegmover
+    - 4638 # Crimson Mechasaur
+    - 4655 # Cruncher
+    - 4632 # Eepy
+    - 4653 # Lab Rat
+    - 4661 # Mechagopher
+    - 4644 # Professor Punch
+    - 4641 # Rocketfist
+    - 4648 # Steamwheedle Flunkie
+    - 4650 # Venture Companyman
+    - 4639 # Viridian Mechasaur [RNG from Sifted Pile of Scrap]
+    - 4637 # Wavebreaker Mechasaur

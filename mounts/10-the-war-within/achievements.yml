@@ -1,22 +1,27 @@
 name: "Achievements"
 groups:
 
-- name: "Delves"
+- name: "Misc"
   things:
-  - 2230 # Ivory Goliathus (Glory of the Delver)
+    - 2604 # OC91 Chariot (Titan Console Overcharged)
+    - 2190 # Shadow of Doubt (Meta)
+    - 2181 # Swarmite Skyhunter (Khaz Algar Glyph Hunter)
+    - 2332 # The Breaker's Song (Isle Remember You)
 
-- name: "Dungeons"
+- name: "Instances"
   things:
-  - 2244 # Diamond Mechsuit (KSM Season 1)
+    - 2230 # Ivory Goliathus (Glory of the Delver)
+    - 2480 # Crimson Shreddertank (KSM Season 2)
+    - 2508 # Enterprising Shreddertank (KSL Season 2)
+    - 2180 # Shadowed Swarmite (Glory of the Nerub-ar Raider)
+    - 2313 # Junkmaestro's Magnetomech (Glory of the Liberation of Undermine Raider)
 
-- name: "Raids"
+- name: "PvP"
   things:
-  - 2180 # Shadowed Swarmite (Glory of the Nerub-ar Raider)
+    - 2167 # Raging Cinderbee
+    - 2300 # Vicious Electro Eel [A]
+    - 2299 # Vicious Electro Eel [H]
 
-- name: "World PvP"
+- name: "Visions"
   things:
-  - 2167 # Raging Cinderbee
-
-- name: "Exploration"
-  things:
-  - 2181 # Swarmite Skyhunter (Khaz Algar Glyph Hunter)
+    - 2500 # Ny'alothan Shadow Worm

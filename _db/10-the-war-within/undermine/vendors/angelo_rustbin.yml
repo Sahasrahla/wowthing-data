@@ -1,0 +1,29 @@
+things:
+  - id: 234776
+    type: "vendor"
+    name: "Angelo Rustbin"
+    note: "S.C.R.A.P. Exchange"
+
+    locations:
+      here: # undermine
+        - 25.6 38.2
+
+    contents:
+
+      # 0
+
+      - id: 232858 # Cruncher [pet]
+        costs:
+          3220: 1
+
+      - id: 232859 # Lab Rat [pet]
+        costs:
+          3220: 3
+
+      - id: 237382 # Undermine Supply Crate [toy]
+        costs:
+          3218: 999
+
+      # - id: 232986 # GE86 Advance [DRIVE]
+      #   costs:
+      #     3220: 1

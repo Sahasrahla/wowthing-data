@@ -1,44 +1,236 @@
 name: "Miscellaneous"
 groups:
 
-- name: "Hallowfall"
+- name: "Crafted"
   type: armor
   sets:
-    - "Delves"
-    - "World Drops"
+    - "Epic Armor"
+    - "Rare Armor"
+    - "PvP Armor"
   data:
     cloth:
-      # Unkindled Waxweave Panoply [Delves]
-      - transmogSetId: 3881
-        wowheadSetId:
+      - name: "Consecrated Cloth"
+        itemsV2:
+          - 222814_0 # Consecrated Slippers
+          - 222815_0 # Consecrated Cuffs
+          - 222816_0 # Consecrated Cord
+          - 222817_0 # Consecrated Cloak
+          - 222818_0 # Consecrated Hood
+          - 222819_0 # Consecrated Robe
+          - 222820_0 # Consecrated Leggings
+          - 222821_0 # Consecrated Mantle
+          - 222822_0 # Consecrated Gloves
 
-      # Hallowfall Cloth Armor [World Drops]
-      - transmogSetId: 3658
+      - name: "Pioneer's Cloth"
+        itemsV2:
+          - 222832_0 # Pioneer's Cloth Slippers
+          - 222833_0 # Pioneer's Cloth Cuffs
+          - 222834_0 # Pioneer's Cloth Cord
+          - 222835_0 # Pioneer's Cloth Cloak
+          - 222836_0 # Pioneer's Cloth Hood
+          - 222837_0 # Pioneer's Cloth Robe
+          - 222838_0 # Pioneer's Perfected Leggings
+          - 222839_0 # Pioneer's Perfected Mantle
+          - 222840_0 # Pioneer's Perfected Gloves
+
+      - name: "Algari Competitor's Cloth"
+        itemsV2:
+          - 217117_0 # Algari Competitor's Cloth Leggings
+          - 217118_0 # Algari Competitor's Cloth Shoulderpads
+          - 217119_0 # Algari Competitor's Cloth Treads
+          - 217120_0 # Algari Competitor's Cloth Bands
+          - 217121_0 # Algari Competitor's Cloth Hood
+          - 217122_0 # Algari Competitor's Cloth Gloves
+          - 217123_0 # Algari Competitor's Cloth Tunic
+          - 217124_0 # Algari Competitor's Cloth Sash
+          - 217125_0 # Algari Competitor's Cloth Cloak
+
+    leather:
+      - name: "Rune-Branded Leather"
+        itemsV2:
+          - 219327_0 # Rune-Branded Kickers
+          - 219328_0 # Rune-Branded Tunic
+          - 219329_0 # Rune-Branded Hood
+          - 219330_0 # Rune-Branded Mantle
+          - 219331_0 # Rune-Branded Waistband
+          - 219332_0 # Rune-Branded Legwraps
+          - 219333_0 # Rune-Branded Grasps
+          - 219334_0 # Rune-Branded Armbands
+
+      - name: "Spelunker's Leather"
+        itemsV2:
+          - 219470_0 # Spelunker's Leather Footpads
+          - 219471_0 # Spelunker's Leather Bands
+          - 219472_0 # Spelunker's Leather Jerkin
+          - 219476_0 # Spelunker's Practiced Hat
+          - 219477_0 # Spelunker's Practiced Shoulders
+          - 219478_0 # Spelunker's Practiced Mitts
+          - 219479_0 # Spelunker's Practiced Britches
+          - 219480_0 # Spelunker's Practiced Sash
+
+      - name: "Algari Competitor's Leather"
+        itemsV2:
+          - 217126_0 # Algari Competitor's Leather Boots
+          - 217127_0 # Algari Competitor's Leather Chestpiece
+          - 217128_0 # Algari Competitor's Leather Mask
+          - 217129_0 # Algari Competitor's Leather Shoulderpads
+          - 217130_0 # Algari Competitor's Leather Belt
+          - 217131_0 # Algari Competitor's Leather Trousers
+          - 217132_0 # Algari Competitor's Leather Gloves
+          - 217133_0 # Algari Competitor's Leather Wristwraps
+
+    mail:
+      - name: "Glyph-Etched Mail"
+        itemsV2:
+          - 219335_0 # Glyph-Etched Stompers
+          - 219336_0 # Glyph-Etched Breastplate
+          - 219337_0 # Glyph-Etched Guise
+          - 219338_0 # Glyph-Etched Epaulets
+          - 219339_0 # Glyph-Etched Binding
+          - 219340_0 # Glyph-Etched Cuisses
+          - 219341_0 # Glyph-Etched Gauntlets
+          - 219342_0 # Glyph-Etched Vambraces
+
+      - name: "Tracker's Mail"
+        itemsV2:
+          - 219473_0 # Tracker's Chitin Galoshes
+          - 219474_0 # Tracker's Chitin Cuffs
+          - 219475_0 # Tracker's Chitin Hauberk
+          - 219481_0 # Tracker's Toughened Headgear
+          - 219482_0 # Tracker's Toughened Shoulderguards
+          - 219483_0 # Tracker's Toughened Handguards
+          - 219484_0 # Tracker's Toughened Links
+          - 219485_0 # Tracker's Toughened Girdle
+
+      - name: "Algari Competitor's Mail"
+        itemsV2:
+          - 217134_0 # Algari Competitor's Chain Treads
+          - 217135_0 # Algari Competitor's Chain Chainmail
+          - 217136_0 # Algari Competitor's Chain Cowl
+          - 217137_0 # Algari Competitor's Chain Epaulets
+          - 217138_0 # Algari Competitor's Chain Girdle
+          - 217139_0 # Algari Competitor's Chain Leggings
+          - 217140_0 # Algari Competitor's Chain Gauntlets
+          - 217141_0 # Algari Competitor's Chain Cuffs
+
+    plate:
+      - name: "Everforged Plate"
+        itemsV2:
+          - 222429_6 # Everforged Sabatons
+          - 222430_6 # Everforged Breastplate
+          - 222431_6 # Everforged Greatbelt
+          - 222433_6 # Everforged Helm
+          - 222434_6 # Everforged Legplates
+          - 222435_6 # Everforged Vambraces
+          - 222436_6 # Everforged Pauldrons
+          - 222437_6 # Everforged Gauntlets
+
+      - name: "Dredger's Plate"
+        itemsV2:
+          - 222471_6 # Dredger's Developed Sabatons
+          - 222472_6 # Dredger's Developed Breastplate
+          - 222473_6 # Dredger's Developed Greatbelt
+          - 222475_6 # Dredger's Developed Helm
+          - 222476_6 # Dredger's Developed Legplates
+          - 222477_6 # Dredger's Developed Vambraces
+          - 222478_6 # Dredger's Developed Pauldrons
+          - 222479_6 # Dredger's Developed Gauntlets
+
+      - name: "Algari Competitor's Plate"
+        itemsV2:
+          - 217143_6 # Algari Competitor's Plate Breatplate
+          - 217144_6 # Algari Competitor's Plate Sabatons
+          - 217145_6 # Algari Competitor's Plate Gauntlets
+          - 217146_6 # Algari Competitor's Plate Helm
+          - 217147_6 # Algari Competitor's Plate Greaves
+          - 217148_6 # Algari Competitor's Plate Pauldrons
+          - 217149_6 # Algari Competitor's Plate Waistguard
+          - 217150_6 # Algari Competitor's Plate Armguards
+
+- name: "Crafted"
+  type: all
+  sets:
+    - "Epic Weapons"
+    - "Rare Weapons"
+    - "PvP Weapons"
+  data:
+    all:
+      - name: "Epic Weapons"
+        itemsV2:
+          - 221969 # P.0.W. x2 [engineering]
+          - 222432 # Everforged Defender [blacksmithing]
+          - 222438 # Everforged Stabber [blacksmithing]
+          - 222439 # Everforged Dagger [blacksmithing]
+          - 222440 # Everforged Longsword [blacksmithing]
+          - 222441 # Everforged Warglaive [blacksmithing]
+          - 222442 # Everforged Mace [blacksmithing]
+          - 222443 # Everforged Greataxe [blacksmithing]
+          - 222444 # Charged Hexsword [blacksmithing]
+          - 222445 # Charged Runeaxe [blacksmithing]
+          - 222446 # Charged Facesmasher [blacksmithing]
+          - 222447 # Charged Claymore [blacksmithing]
+          - 222448 # Charged Halberd [blacksmithing]
+          - 222449 # Charged Crusher [blacksmithing]
+          - 222450 # Charged Invoker [blacksmithing]
+          - 222451 # Charged Slicer [blacksmithing]
+          - 222459 # Beledar's Bulwark [blacksmithing]
+          - 222463 # Siphoning Stiletto [blacksmithing]
+          - 222566 # Vagabond's Torch [inscription]
+          - 222567 # Vagabond's Careful Crutch [inscription]
+          - 222568 # Vagabond's Bounding Baton [inscription]
+          - 224405 # Scepter of Radiant Magics [enchanting]
+
+      - name: "Rare Weapons"
+        itemsV2:
+          - 222464 # Ironclaw Stiletto [blacksmithing]
+          - 222465 # Ironclaw Dirk [blacksmithing]
+          - 222466 # Ironclaw Sword [blacksmithing]
+          - 222467_6 # Ironclaw Knuckles [blacksmithing]
+          - 222468_6 # Ironclaw Great Mace [blacksmithing]
+          - 222469_6 # Ironclaw Axe [blacksmithing]
+          - 222470_6 # Ironclaw Great Axe [blacksmithing]
+          - 222565 # Inquisitor's Torch [inscription]
+          - 222569 # Inquisitor's Crutch [inscription]
+          - 222570 # Inquisitor's Baton [inscription]
+          - 224404 # Enchanted Spearwood Wand [enchanting]
+          - 225646 # 4UT0-41M3R [engineering]
+
+      - name: "PvP Weapons"
+        itemsV2:
+          - 225366_159 # Algari Competitor's Pickaxe [blacksmithing]
+          - 225367_159 # Algari Competitor's Dagger [blacksmithing]
+          - 225368_159 # Algari Competitor's Pillar [inscription]
+          - 225369_159 # Algari Competitor's Staff [inscription]
+          - 225370_159 # Algari Competitor's Rifle [engineering]
+          - 225371_159 # Algari Competitor's Scepter [blacksmithing]
+          - 225372_159 # Algari Competitor's Lamp [inscription]
+          - 225373_159 # Algari Competitor's Shield [blacksmithing]
+          - 225374_159 # Algari Competitor's Axe [blacksmithing]
+          - 225375_159 # Algari Competitor's Skewer [blacksmithing]
+          - 225376_159 # Algari Competitor's Greatsword [blacksmithing]
+          - 225377_159 # Algari Competitor's Sword [blacksmithing]
+
+- name: "Horrific Visions Revisited"
+  type: armor
+  sets:
+    - "Vision Armor"
+  data:
+    cloth:
+      # Vision Manipulator's Vestments [Horrific Visions Revisited]
+      - transmogSetId: 4365
         wowheadSetId:
 
     leather:
-      # Myconic Shell [Delves]
-      - transmogSetId: 3880
-        wowheadSetId:
-
-      # Hallowfall Leather Armor [World Drops]
-      - transmogSetId: 3657
+      # Garb of the Insatiable Vision [Horrific Visions Revisited]
+      - transmogSetId: 4364
         wowheadSetId:
 
     mail:
-      # Chains of the Stygian Sea [Delves]
-      - transmogSetId: 3878
-        wowheadSetId:
-
-      # Hallowfall Mail Armor [World Drops]
-      - transmogSetId: 3656
+      # Vision Tormentor's Battlekit [Horrific Visions Revisited]
+      - transmogSetId: 4363
         wowheadSetId:
 
     plate:
-      # Aegis of Hidden Stars [Delves]
-      - transmogSetId: 3879
-        wowheadSetId:
-
-      # Hallowfall Plate Armor [World Drops]
-      - transmogSetId: 3655
+      # Malignant Vision's Battleplate [Horrific Visions Revisited]
+      - transmogSetId: 4362
         wowheadSetId:

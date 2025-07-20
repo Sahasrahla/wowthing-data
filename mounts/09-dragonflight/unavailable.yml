@@ -15,8 +15,6 @@ groups:
   - 1801 # Verdant Armoredon (KSM Season 3)
   - 2055 # Infinite Armoredon (KSM Season 4)
 
-- name: "Plunderstorm"
+- name: "Ghost"
   things:
-  - 2090 # Polly Roger
-  - 994 # Royal Seafeather
-  - 1259 # Silver Tidestallion
+  - 1607 # Swift Spectral Drake (used while dead)

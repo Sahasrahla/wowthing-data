@@ -1,0 +1,20 @@
+things:
+  - id: 233472
+    type: "npc"
+    name: "Voltstrike the Charged"
+    note: "Requires a Blackwater stan to activate"
+    reset: "weekly"
+    trackingQuestId: 90490 # 85777
+    highlightQuestId: 84954
+
+    locations:
+      here: # undermine
+        - 62.7 26.1
+
+    contents:
+
+      - id: 235826 # Electric Wristrags [cloth wrists]
+
+      - id: 235827 # Statically Charged Vest [leather chest]
+
+      - id: 235828 # Electrocution Warning [staff]

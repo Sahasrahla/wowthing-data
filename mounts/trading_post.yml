@@ -3,51 +3,85 @@ groups:
 
 - name: "Bonus Reward"
   things:
-  - 1577 # Ash'adar, Harbringer of Dawn (February 2023)
-  - 1582 # Savage Green Battle Turtle (May 2023)
-  - 1575 # Quawks (June 2023)
-  - 1744 # Grotto Netherwing Drake (July 2023)
-  - 1574 # Crusty Crawler (September 2023)
-  - 1799 # Eve's Ghastly Rider (October 2023)
+    - 1577 # Ash'adar, Harbringer of Dawn (February 2023)
+    - 1582 # Savage Green Battle Turtle (May 2023)
+    - 1575 # Quawks (June 2023)
+    - 1744 # Grotto Netherwing Drake (July 2023)
+    - 1574 # Crusty Crawler (September 2023)
+    - 1799 # Eve's Ghastly Rider (October 2023)
+    - 2238 # Plunderlord's Golden Crocolisk (2024-09)
+    - 1550 # Depthstalker (2024-10)
 
 - name: "Trading Post"
   things:
-  - 376 # Celestial Steed (February 2023)
-  - 1573 # Magenta Cloud Serpent (April 2023)
-  - 1784 # Royal Swarmer (June 2023)
-  - 454 # Cindermane Charger (June 2023)
-  - 439 # Tyrael's Charger (July 2023)
-  - 1742 # Felcrystal Scorpion (July 2023)
-  - 1266 # Alabaster Stormtalon (August 2023)
-  - 1267 # Alabaster Thunderwing (August 2023)
-  - 1785 # Ancestral Clefthoof (August 2023)
-  - 646 # Coldflame Infernal (October 2023)
-  - 224 # Swift Zhevra (November 2023)
-  - 440 # Spectral Gryphon (November 2023)
-  - 441 # Spectral Wind Rider (November 2023)
-  - 1841 # Crimson Glimmerfur (December 2023)
-  - 1586 # Armored Golden Pterrordax (January 2024)
-  - 1942 # Jeweled Copper Scarab (January 2024)
-  - 382 # X-53 Touring Rocket (February 2024)
-  - 1956 # Fur-endship Fox (February 2024)
-  - 2035 # Majestic Azure Peafowl (March 2024)
-  - 1051 # The Dreadwake (April 2024)
-  - 2039 # Savage Blue Battle Turtle (April 2024)
-  - 1468 # Amber Skitterfly (May 2024)
-  - 371 # Blazing Hippogryph (May 2024)
-  - 2152 # Pearlescent Goblin Wave Shredder (June 2024)
-  - 125 # Riding Turtle (June 2024)
-  - 2189 # Underlight Corrupted Behemoth (July 2024)
-  - 2201 # Sentinel War Wolf (August 2024)
-  - 2198 # Kor'kron Warsaber (August 2024)
-  - 2239 # Keg Leg's Radiant Crocolisk (September 2024)
-  - 2249 # Hand of Reshkigaal (October 2024)
-
+    - 376 # Celestial Steed (February 2023)
+    - 1573 # Magenta Cloud Serpent (April 2023)
+    - 1784 # Royal Swarmer (June 2023)
+    - 454 # Cindermane Charger (June 2023)
+    - 439 # Tyrael's Charger (July 2023)
+    - 1742 # Felcrystal Scorpion (July 2023)
+    - 1266 # Alabaster Stormtalon (August 2023)
+    - 1267 # Alabaster Thunderwing (August 2023)
+    - 1785 # Ancestral Clefthoof (August 2023)
+    - 646 # Coldflame Infernal (October 2023)
+    - 224 # Swift Zhevra (November 2023)
+    - 440 # Spectral Gryphon (November 2023)
+    - 441 # Spectral Wind Rider (November 2023)
+    - 1841 # Crimson Glimmerfur (December 2023)
+    - 1586 # Armored Golden Pterrordax (January 2024)
+    - 1942 # Jeweled Copper Scarab (January 2024)
+    - 382 # X-53 Touring Rocket (February 2024)
+    - 1956 # Fur-endship Fox (February 2024)
+    - 2035 # Majestic Azure Peafowl (March 2024)
+    - 1051 # The Dreadwake (April 2024)
+    - 2039 # Savage Blue Battle Turtle (April 2024)
+    - 1468 # Amber Skitterfly (May 2024)
+    - 371 # Blazing Hippogryph (May 2024)
+    - 2152 # Pearlescent Goblin Wave Shredder (June 2024)
+    - 125 # Riding Turtle (June 2024)
+    - 2189 # Underlight Corrupted Behemoth (July 2024)
+    - 2201 # Sentinel War Wolf (August 2024)
+    - 2198 # Kor'kron Warsaber (August 2024)
+    - 2239 # Keg Leg's Radiant Crocolisk (September 2024)
+    - 2249 # Hand of Reshkigaal (2024-10)
+    - 2036 # Brilliant Sunburst Peafowl (2025-01)
+    - 2241 # Plunderlord's Weathered Crocolisk (2025-01)
+    - 2347 # Savage Alabaster Battle Turtle (2025-01)
+    - 2489 # Pearlescent Butterfly (2025-03)
+    - 2491 # Ruby Butterfly (2025-03)
+    - 1824 # Brown-Furred Spiky Bakar (2025-04?)
+    - 2520 # Spring Harvesthog (2025-05)
+    - 2524 # Coldflame Cormaera (2025-06)
+    - 2504 # Spotted Black Riding Goat (2025-06)
+    - 2579 # Forsaken's Grotesque Charger (2025-07)
+    - 2580 # Wailing Banshee's Charger (2025-07)
+    - 2600 # Unarmored Deathtusk Felboar (2025-07)
+    
 - name: "Unavailable"
   things:
     - 1583 # Armored Siege Kodo
     - 1595 # Cerulean Marsh Hopper
     - 1579 # Coral-Stalker Waveray
+    - 2495 # Emerald Snail
     - 799 # Molten Flarecore
+    - 2488 # Shimmermist Free Runner
     - 1958 # Twilight Sky Prowler
     - 2187 # Underlight Shorestalker
+    - 2494 # Midnight Butterfly
+    - 2492 # Spring Butterfly
+    - 2482 # Lively Darkmoon Charger
+    - 2481 # Midnight Darkmoon Charger
+    - 2483 # Violet Darkmoon Charger
+    - 2484 # Snowy Darkmoon Charger
+    - 2527 # Molten Cormaera
+    - 2528 # Lavaborn Cormaera
+    - 2521 # Summer Harvesthog
+    - 2522 # Winter Harvesthog
+    - 2523 # Autumn Harvesthog
+    - 2526 # Felborn Cormaera
+    - 2572 # Banshee's Chilling Charger
+    - 2575 # Grandmaster's Prophetic Board
+    - 2576 # Grandmaster's Deep Board
+    - 2577 # Grandmaster's Royal Board
+    - 2578 # Grandmaster's Smokey Board
+    - 2581 # Banshee's Sickening Charger

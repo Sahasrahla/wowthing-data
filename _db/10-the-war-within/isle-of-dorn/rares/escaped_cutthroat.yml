@@ -1,0 +1,16 @@
+things:
+  - id: 219266
+    type: "npc"
+    name: "Escaped Cutthroat"
+    reset: "daily"
+    trackingQuestId: 81907
+
+    locations:
+      here: # isle_of_dorn
+        - 25.8 45
+
+    contents:
+
+      - id: 221208 # Unseen Cutthroat's Tunic [leather chest]
+
+      - id: 221235 # Dark Agent's Cloak [cloak]

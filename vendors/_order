@@ -1,10 +1,19 @@
 10-the-war-within/_.yml
+    10-the-war-within/undermine.yml
+        10-the-war-within/undermine_raid.yml
+    10-the-war-within/siren_isle.yml
+    -
     10-the-war-within/azj-kahet.yml
+    10-the-war-within/city_of_threads.yml
     10-the-war-within/hallowfall.yml
     10-the-war-within/isle_of_dorn.yml
     10-the-war-within/ringing_deeps.yml
     -
     10-the-war-within/dornogal.yml
+        10-the-war-within/dornogal/delves.yml
+        10-the-war-within/dornogal/pvp.yml
+        10-the-war-within/dornogal/revisited_horrific_visions.yml
+        10-the-war-within/dornogal/turbo_boost.yml
 
 09-dragonflight/_.yml
     09-dragonflight/emerald_dream.yml
@@ -51,6 +60,8 @@
     07-battle-for-azeroth/nazmir.yml
     07-battle-for-azeroth/voldun.yml
     07-battle-for-azeroth/zuldazar.yml
+    -
+    07-battle-for-azeroth/timewalking.yml
 
 06-legion/_.yml
     06-legion/antoran_wastes.yml
@@ -67,6 +78,7 @@
     -
     06-legion/dalaran.yml
     06-legion/dalaran_underbelly.yml
+    06-legion/timewalking.yml
 
 05-warlords-of-draenor/_.yml
     05-warlords-of-draenor/tanaan_jungle.yml
@@ -78,6 +90,7 @@
     -
     05-warlords-of-draenor/stormshield.yml
     05-warlords-of-draenor/warspear.yml
+    05-warlords-of-draenor/timewalking.yml
 
 04-mists-of-pandaria/_.yml
     04-mists-of-pandaria/isle_of_giants.yml
@@ -91,6 +104,8 @@
     04-mists-of-pandaria/townlong_steppes.yml
     04-mists-of-pandaria/vale_of_eternal_blossoms.yml
     04-mists-of-pandaria/valley_of_the_four_winds.yml
+    -
+    04-mists-of-pandaria/timewalking.yml
 
 03-cataclysm/_.yml
     03-cataclysm/molten_front.yml
@@ -104,14 +119,31 @@
     03-cataclysm/mount_hyjal.yml
     03-cataclysm/twilight_highlands.yml
     03-cataclysm/uldum.yml
+    -
+    03-cataclysm/timewalking.yml
 
 02-wrath-of-the-lich-king/_.yml
+    02-wrath-of-the-lich-king/borean_tundra.yml
+    02-wrath-of-the-lich-king/dragonblight.yml
+    02-wrath-of-the-lich-king/howling_fjord.yml
+    02-wrath-of-the-lich-king/icecrown.yml
+        02-wrath-of-the-lich-king/icecrown/argent_tournament.yml
+        02-wrath-of-the-lich-king/icecrown/trial_of_the_crusader.yml
+    02-wrath-of-the-lich-king/sholazar_basin.yml
+    02-wrath-of-the-lich-king/storm_peaks.yml
+    -
     02-wrath-of-the-lich-king/dalaran.yml
+        02-wrath-of-the-lich-king/dalaran/professions.yml
+        02-wrath-of-the-lich-king/dalaran/timewalking.yml
         02-wrath-of-the-lich-king/dalaran/tier_07.yml
         02-wrath-of-the-lich-king/dalaran/tier_08.yml
         02-wrath-of-the-lich-king/dalaran/tier_09.yml
         02-wrath-of-the-lich-king/dalaran/tier_10.yml
     02-wrath-of-the-lich-king/dalaran_underbelly.yml
+        02-wrath-of-the-lich-king/dalaran-underbelly/season_05.yml
+        02-wrath-of-the-lich-king/dalaran-underbelly/season_06.yml
+        02-wrath-of-the-lich-king/dalaran-underbelly/season_07.yml
+        02-wrath-of-the-lich-king/dalaran-underbelly/season_08.yml
 
 01-the-burning-crusade/_.yml
     01-the-burning-crusade/isle_of_queldanas.yml
@@ -120,8 +152,13 @@
     01-the-burning-crusade/netherstorm.yml
     -
     01-the-burning-crusade/shattrath_city.yml
+    01-the-burning-crusade/timewalking.yml
 
 00-classic/_.yml
+    00-classic/orgrimmar.yml
+        00-classic/orgrimmar/justice_valor.yml
+    -
+    00-classic/timewalking.yml
 
 -
 
@@ -138,19 +175,27 @@ pvp/_pvp.yml
     pvp/01_the_burning_crusade.yml
     pvp/00_classic.yml
 
-remix/_.yml
-    remix/04-pandaria.yml
+timewalking.yml
+    00-classic/timewalking.yml Classic
+    01-the-burning-crusade/timewalking.yml Burning Crusade
+    02-wrath-of-the-lich-king/dalaran/timewalking.yml Wrath of the Lich King
+    03-cataclysm/timewalking.yml Cataclysm
+    04-mists-of-pandaria/timewalking.yml Mists of Pandaria
+    05-warlords-of-draenor/timewalking.yml Warlords of Draenor
+    06-legion/timewalking.yml Legion
+    07-battle-for-azeroth/timewalking.yml Battle for Azeroth
 
 world-events/_world_events.yml
-    world-events/anniversary.yml
     world-events/brewfest.yml
+    world-events/childrens_week.yml
     world-events/darkmoon_faire.yml
     world-events/hallows_end.yml
     world-events/love_is_in_the_air.yml
     world-events/lunar_festival.yml
     world-events/midsummer_fire_festival.yml
     world-events/noblegarden.yml
-    world-events/timewalking.yml
+    world-events/trial_of_style.yml
     -
-    world-events/09-elemental_invasion.yml
-    world-events/10-radiant_echoes.yml
+    world-events/a_greedy_emissary.yml
+    world-events/anniversary.yml
+    world-events/plunderstorm.yml

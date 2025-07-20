@@ -1,4 +1,5 @@
 10-the-war-within/_.yml
+    10-the-war-within/storyline_11_1.yml
     10-the-war-within/storyline_11_0.yml
     10-the-war-within/sojourner.yml
     10-the-war-within/renown.yml
@@ -25,6 +26,7 @@
     08-shadowlands/raid_skips.yml
 
 07-battle-for-azeroth/_.yml
+    07-battle-for-azeroth/intro.yml
     07-battle-for-azeroth/zone_quests.yml
     07-battle-for-azeroth/war_campaign.yml
     07-battle-for-azeroth/patch_8_2.yml
@@ -90,6 +92,7 @@ world-events/_world_events.yml
     world-events/brewfest.yml
     world-events/darkmoon_faire.yml
     world-events/love_is_in_the_air.yml
+    world-events/noblegarden.yml
 
 -
 

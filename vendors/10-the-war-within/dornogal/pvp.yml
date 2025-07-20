@@ -1,0 +1,5 @@
+name: "PvP"
+vendorMaps:
+  - "10-the-war-within/dornogal"
+vendorTags:
+  - "pvp:season39"

@@ -1,0 +1,1192 @@
+things:
+  - id: 219222
+    type: "vendor"
+    name: "Lalandi"
+    note: "Conquest Quartermaster"
+
+    locations:
+      here: # dornogal
+        - 55.2 76.2
+
+    groups:
+      - name: "Conquest - Death Knight"
+        range: 19
+        sortKey: "pvp-3-01"
+
+      - name: "Conquest - Demon Hunter"
+        range: 19
+        sortKey: "pvp-3-02"
+
+      - name: "Conquest - Druid"
+        range: 19
+        sortKey: "pvp-3-03"
+
+      - name: "Conquest - Evoker"
+        range: 19
+        sortKey: "pvp-3-04"
+
+      - name: "Conquest - Hunter"
+        range: 19
+        sortKey: "pvp-3-05"
+
+      - name: "Conquest - Mage"
+        range: 19
+        sortKey: "pvp-3-06"
+
+      - name: "Conquest - Monk"
+        range: 19
+        sortKey: "pvp-3-07"
+
+      - name: "Conquest - Paladin"
+        range: 19
+        sortKey: "pvp-3-08"
+
+      - name: "Conquest - Priest"
+        range: 19
+        sortKey: "pvp-3-09"
+
+      - name: "Conquest - Rogue"
+        range: 19
+        sortKey: "pvp-3-10"
+
+      - name: "Conquest - Shaman"
+        range: 19
+        sortKey: "pvp-3-11"
+
+      - name: "Conquest - Warlock"
+        range: 19
+        sortKey: "pvp-3-12"
+
+      - name: "Conquest - Warrior"
+        range: 19
+        sortKey: "pvp-3-13"
+
+      - name: "Conquest - Weapons"
+        range: -1
+        sortKey: "pvp-3-99"
+
+    contents:
+
+      # Death Knight set=4019
+
+      - id: 229721 # Prized Gladiator's Plate Helm [plate head]
+        costs:
+          1602: 875
+
+      - id: 229722 # Prized Gladiator's Plate Helmet [plate head]
+        costs:
+          1602: 875
+
+      - id: 229726 # Prized Gladiator's Plate Pauldrons [plate shoulders]
+        costs:
+          1602: 700
+
+      - id: 229725 # Prized Gladiator's Plate Shoulders [plate shoulders]
+        costs:
+          1602: 700
+
+      - id: 229731 # Prized Gladiator's Cloak [cloak]
+        costs:
+          1602: 525
+
+      - id: 229732 # Prized Gladiator's Drape [cloak]
+        costs:
+          1602: 525
+
+      - id: 229733 # Prized Gladiator's Shawl [cloak]
+        costs:
+          1602: 525
+
+      - id: 229713 # Prized Gladiator's Chestguard [plate chest]
+        costs:
+          1602: 875
+
+      - id: 229715 # Prized Gladiator's Chestplate [plate chest]
+        costs:
+          1602: 875
+
+      - id: 229730 # Prized Gladiator's Plate Vambraces [plate wrists]
+        costs:
+          1602: 525
+
+      - id: 229729 # Prized Gladiator's Plate Wristguards [plate wrists]
+        costs:
+          1602: 525
+
+      - id: 229718 # Prized Gladiator's Plate Gauntlets [plate hands]
+        costs:
+          1602: 700
+
+      - id: 229719 # Prized Gladiator's Plate Handguards [plate hands]
+        costs:
+          1602: 700
+
+      - id: 229727 # Prized Gladiator's Plate Girdle [plate waist]
+        costs:
+          1602: 700
+
+      - id: 229728 # Prized Gladiator's Plate Greatbelt [plate waist]
+        costs:
+          1602: 700
+
+      - id: 229723 # Prized Gladiator's Plate Legguards [plate legs]
+        costs:
+          1602: 875
+
+      - id: 229724 # Prized Gladiator's Plate Wargreaves [plate legs]
+        costs:
+          1602: 875
+
+      - id: 229717 # Prized Gladiator's Plate Stompers [plate feet]
+        costs:
+          1602: 700
+
+      - id: 229716 # Prized Gladiator's Plate Warboots [plate feet]
+        costs:
+          1602: 700
+
+      # Demon Hunter set=4020
+
+      - id: 229605 # Prized Gladiator's Leather Helm [leather head]
+        costs:
+          1602: 875
+
+      - id: 229606 # Prized Gladiator's Leather Mask [leather head]
+        costs:
+          1602: 875
+
+      - id: 229610 # Prized Gladiator's Leather Shoulderpads [leather shoulders]
+        costs:
+          1602: 700
+
+      - id: 229609 # Prized Gladiator's Leather Spaulders [leather shoulders]
+        costs:
+          1602: 700
+
+      - id: 229615 # Prized Gladiator's Cloak [cloak]
+        costs:
+          1602: 525
+
+      - id: 229616 # Prized Gladiator's Drape [cloak]
+        costs:
+          1602: 525
+
+      - id: 229617 # Prized Gladiator's Shawl [cloak]
+        costs:
+          1602: 525
+
+      - id: 229600 # Prized Gladiator's Leather Jerkin [leather chest]
+        costs:
+          1602: 875
+
+      - id: 229599 # Prized Gladiator's Leather Vest [leather chest]
+        costs:
+          1602: 875
+
+      - id: 229614 # Prized Gladiator's Leather Wristguards [leather wrists]
+        costs:
+          1602: 525
+
+      - id: 229613 # Prized Gladiator's Leather Wristwraps [leather wrists]
+        costs:
+          1602: 525
+
+      - id: 229603 # Prized Gladiator's Leather Gloves [leather hands]
+        costs:
+          1602: 700
+
+      - id: 229604 # Prized Gladiator's Leather Grips [leather hands]
+        costs:
+          1602: 700
+
+      - id: 229611 # Prized Gladiator's Leather Belt [leather waist]
+        costs:
+          1602: 700
+
+      - id: 229612 # Prized Gladiator's Leather Strap [leather waist]
+        costs:
+          1602: 700
+
+      - id: 229607 # Prized Gladiator's Leather Breeches [leather legs]
+        costs:
+          1602: 875
+
+      - id: 229608 # Prized Gladiator's Leather Legwraps [leather legs]
+        costs:
+          1602: 875
+
+      - id: 229601 # Prized Gladiator's Leather Boots [leather feet]
+        costs:
+          1602: 700
+
+      - id: 229602 # Prized Gladiator's Leather Treads [leather feet]
+        costs:
+          1602: 700
+
+      # Druid set=4021
+
+      - id: 229585 # Prized Gladiator's Leather Helm [leather head]
+        costs:
+          1602: 875
+
+      - id: 229586 # Prized Gladiator's Leather Mask [leather head]
+        costs:
+          1602: 875
+
+      - id: 229590 # Prized Gladiator's Leather Shoulderpads [leather shoulders]
+        costs:
+          1602: 700
+
+      - id: 229589 # Prized Gladiator's Leather Spaulders [leather shoulders]
+        costs:
+          1602: 700
+
+      - id: 229596 # Prized Gladiator's Cloak [cloak]
+        costs:
+          1602: 525
+
+      - id: 229597 # Prized Gladiator's Drape [cloak]
+        costs:
+          1602: 525
+
+      - id: 229598 # Prized Gladiator's Shawl [cloak]
+        costs:
+          1602: 525
+
+      - id: 229579 # Prized Gladiator's Leather Vest [leather chest]
+        costs:
+          1602: 875
+
+      - id: 229580 # Prized Gladiator's Leather Vestments [leather chest]
+        costs:
+          1602: 875
+
+      - id: 229595 # Prized Gladiator's Leather Wristguards [leather wrists]
+        costs:
+          1602: 525
+
+      - id: 229594 # Prized Gladiator's Leather Wristwraps [leather wrists]
+        costs:
+          1602: 525
+
+      - id: 229583 # Prized Gladiator's Leather Gloves [leather hands]
+        costs:
+          1602: 700
+
+      - id: 229584 # Prized Gladiator's Leather Grips [leather hands]
+        costs:
+          1602: 700
+
+      - id: 229591 # Prized Gladiator's Leather Belt [leather waist]
+        costs:
+          1602: 700
+
+      - id: 229592 # Prized Gladiator's Leather Strap [leather waist]
+        costs:
+          1602: 700
+
+      - id: 229587 # Prized Gladiator's Leather Breeches [leather legs]
+        costs:
+          1602: 875
+
+      - id: 229588 # Prized Gladiator's Leather Legwraps [leather legs]
+        costs:
+          1602: 875
+
+      - id: 229581 # Prized Gladiator's Leather Boots [leather feet]
+        costs:
+          1602: 700
+
+      - id: 229582 # Prized Gladiator's Leather Treads [leather feet]
+        costs:
+          1602: 700
+
+      # Evoker set=4022
+
+      - id: 229663 # Prized Gladiator's Chain Faceguard [mail head]
+        costs:
+          1602: 875
+
+      - id: 229662 # Prized Gladiator's Chain Helm [mail head]
+        costs:
+          1602: 875
+
+      - id: 229666 # Prized Gladiator's Chain Monnion [mail shoulders]
+        costs:
+          1602: 700
+
+      - id: 229667 # Prized Gladiator's Chain Shoulderguard [mail shoulders]
+        costs:
+          1602: 700
+
+      - id: 229672 # Prized Gladiator's Cloak [cloak]
+        costs:
+          1602: 525
+
+      - id: 229673 # Prized Gladiator's Drape [cloak]
+        costs:
+          1602: 525
+
+      - id: 229674 # Prized Gladiator's Shawl [cloak]
+        costs:
+          1602: 525
+
+      - id: 229656 # Prized Gladiator's Armored Scales [mail chest]
+        costs:
+          1602: 875
+
+      - id: 229657 # Prized Gladiator's Scaleguard [mail chest]
+        costs:
+          1602: 875
+
+      - id: 229671 # Prized Gladiator's Chain Bracers [mail wrists]
+        costs:
+          1602: 525
+
+      - id: 229670 # Prized Gladiator's Chain Wristguards [mail wrists]
+        costs:
+          1602: 525
+
+      - id: 229660 # Prized Gladiator's Chain Gauntlets [mail hands]
+        costs:
+          1602: 700
+
+      - id: 229661 # Prized Gladiator's Chain Handguards [mail hands]
+        costs:
+          1602: 700
+
+      - id: 229668 # Prized Gladiator's Chain Belt [mail waist]
+        costs:
+          1602: 700
+
+      - id: 229669 # Prized Gladiator's Chain Girdle [mail waist]
+        costs:
+          1602: 700
+
+      - id: 229665 # Prized Gladiator's Chain Breeches [mail legs]
+        costs:
+          1602: 875
+
+      - id: 229664 # Prized Gladiator's Chain Leggings [mail legs]
+        costs:
+          1602: 875
+
+      - id: 229659 # Prized Gladiator's Chain Boots [mail feet]
+        costs:
+          1602: 700
+
+      - id: 229658 # Prized Gladiator's Chain Sabatons [mail feet]
+        costs:
+          1602: 700
+
+      # Hunter set=4023
+
+      - id: 229682 # Prized Gladiator's Chain Faceguard [mail head]
+        costs:
+          1602: 875
+
+      - id: 229681 # Prized Gladiator's Chain Helm [mail head]
+        costs:
+          1602: 875
+
+      - id: 229685 # Prized Gladiator's Chain Monnion [mail shoulders]
+        costs:
+          1602: 700
+
+      - id: 229686 # Prized Gladiator's Chain Shoulderguard [mail shoulders]
+        costs:
+          1602: 700
+
+      - id: 229691 # Prized Gladiator's Cloak [cloak]
+        costs:
+          1602: 525
+
+      - id: 229692 # Prized Gladiator's Drape [cloak]
+        costs:
+          1602: 525
+
+      - id: 229693 # Prized Gladiator's Shawl [cloak]
+        costs:
+          1602: 525
+
+      - id: 229676 # Prized Gladiator's Chain Tunic [mail chest]
+        costs:
+          1602: 875
+
+      - id: 229675 # Prized Gladiator's Chain Vest [mail chest]
+        costs:
+          1602: 875
+
+      - id: 229690 # Prized Gladiator's Chain Bracers [mail wrists]
+        costs:
+          1602: 525
+
+      - id: 229689 # Prized Gladiator's Chain Wristguards [mail wrists]
+        costs:
+          1602: 525
+
+      - id: 229679 # Prized Gladiator's Chain Gauntlets [mail hands]
+        costs:
+          1602: 700
+
+      - id: 229680 # Prized Gladiator's Chain Handguards [mail hands]
+        costs:
+          1602: 700
+
+      - id: 229687 # Prized Gladiator's Chain Belt [mail waist]
+        costs:
+          1602: 700
+
+      - id: 229688 # Prized Gladiator's Chain Girdle [mail waist]
+        costs:
+          1602: 700
+
+      - id: 229684 # Prized Gladiator's Chain Breeches [mail legs]
+        costs:
+          1602: 875
+
+      - id: 229683 # Prized Gladiator's Chain Leggings [mail legs]
+        costs:
+          1602: 875
+
+      - id: 229678 # Prized Gladiator's Chain Boots [mail feet]
+        costs:
+          1602: 700
+
+      - id: 229677 # Prized Gladiator's Chain Sabatons [mail feet]
+        costs:
+          1602: 700
+
+      # Mage set=4024
+
+      - id: 229529 # Prized Gladiator's Silk Cap [cloth head]
+        costs:
+          1602: 875
+
+      - id: 229528 # Prized Gladiator's Silk Hat [cloth head]
+        costs:
+          1602: 875
+
+      - id: 229533 # Prized Gladiator's Silk Amice [cloth shoulders]
+        costs:
+          1602: 700
+
+      - id: 229532 # Prized Gladiator's Silk Mantle [cloth shoulders]
+        costs:
+          1602: 700
+
+      - id: 229538 # Prized Gladiator's Cloak [cloak]
+        costs:
+          1602: 525
+
+      - id: 229539 # Prized Gladiator's Drape [cloak]
+        costs:
+          1602: 525
+
+      - id: 229540 # Prized Gladiator's Shawl [cloak]
+        costs:
+          1602: 525
+
+      - id: 229523 # Prized Gladiator's Silk Gown [cloth chest]
+        costs:
+          1602: 875
+
+      - id: 229522 # Prized Gladiator's Silk Robe [cloth chest]
+        costs:
+          1602: 875
+
+      - id: 229537 # Prized Gladiator's Silk Armbands [cloth wrists]
+        costs:
+          1602: 525
+
+      - id: 229536 # Prized Gladiator's Silk Wristwraps [cloth wrists]
+        costs:
+          1602: 525
+
+      - id: 229526 # Prized Gladiator's Silk Gloves [cloth hands]
+        costs:
+          1602: 700
+
+      - id: 229527 # Prized Gladiator's Silk Handwraps [cloth hands]
+        costs:
+          1602: 700
+
+      - id: 229535 # Prized Gladiator's Silk Belt [cloth waist]
+        costs:
+          1602: 700
+
+      - id: 229534 # Prized Gladiator's Silk Cord [cloth waist]
+        costs:
+          1602: 700
+
+      - id: 229530 # Prized Gladiator's Silk Leggings [cloth legs]
+        costs:
+          1602: 875
+
+      - id: 229531 # Prized Gladiator's Silk Trousers [cloth legs]
+        costs:
+          1602: 875
+
+      - id: 229524 # Prized Gladiator's Silk Slippers [cloth feet]
+        costs:
+          1602: 700
+
+      - id: 229525 # Prized Gladiator's Silk Treads [cloth feet]
+        costs:
+          1602: 700
+
+      # Monk set=4025
+
+      - id: 229624 # Prized Gladiator's Leather Helm [leather head]
+        costs:
+          1602: 875
+
+      - id: 229625 # Prized Gladiator's Leather Mask [leather head]
+        costs:
+          1602: 875
+
+      - id: 229629 # Prized Gladiator's Leather Shoulderpads [leather shoulders]
+        costs:
+          1602: 700
+
+      - id: 229628 # Prized Gladiator's Leather Spaulders [leather shoulders]
+        costs:
+          1602: 700
+
+      - id: 229634 # Prized Gladiator's Cloak [cloak]
+        costs:
+          1602: 525
+
+      - id: 229635 # Prized Gladiator's Drape [cloak]
+        costs:
+          1602: 525
+
+      - id: 229636 # Prized Gladiator's Shawl [cloak]
+        costs:
+          1602: 525
+
+      - id: 229619 # Prized Gladiator's Leather Jerkin [leather chest]
+        costs:
+          1602: 875
+
+      - id: 229618 # Prized Gladiator's Leather Vest [leather chest]
+        costs:
+          1602: 875
+
+      - id: 229633 # Prized Gladiator's Leather Wristguards [leather wrists]
+        costs:
+          1602: 525
+
+      - id: 229632 # Prized Gladiator's Leather Wristwraps [leather wrists]
+        costs:
+          1602: 525
+
+      - id: 229622 # Prized Gladiator's Leather Gloves [leather hands]
+        costs:
+          1602: 700
+
+      - id: 229623 # Prized Gladiator's Leather Grips [leather hands]
+        costs:
+          1602: 700
+
+      - id: 229630 # Prized Gladiator's Leather Belt [leather waist]
+        costs:
+          1602: 700
+
+      - id: 229631 # Prized Gladiator's Leather Strap [leather waist]
+        costs:
+          1602: 700
+
+      - id: 229626 # Prized Gladiator's Leather Breeches [leather legs]
+        costs:
+          1602: 875
+
+      - id: 229627 # Prized Gladiator's Leather Legwraps [leather legs]
+        costs:
+          1602: 875
+
+      - id: 229620 # Prized Gladiator's Leather Boots [leather feet]
+        costs:
+          1602: 700
+
+      - id: 229621 # Prized Gladiator's Leather Treads [leather feet]
+        costs:
+          1602: 700
+
+      # Paladin set=4026
+
+      - id: 229740 # Prized Gladiator's Plate Helm [plate head]
+        costs:
+          1602: 875
+
+      - id: 229741 # Prized Gladiator's Plate Helmet [plate head]
+        costs:
+          1602: 875
+
+      - id: 229745 # Prized Gladiator's Plate Pauldrons [plate shoulders]
+        costs:
+          1602: 700
+
+      - id: 229744 # Prized Gladiator's Plate Shoulders [plate shoulders]
+        costs:
+          1602: 700
+
+      - id: 229751 # Prized Gladiator's Cloak [cloak]
+        costs:
+          1602: 525
+
+      - id: 229752 # Prized Gladiator's Drape [cloak]
+        costs:
+          1602: 525
+
+      - id: 229753 # Prized Gladiator's Shawl [cloak]
+        costs:
+          1602: 525
+
+      - id: 229734 # Prized Gladiator's Chestguard [plate chest]
+        costs:
+          1602: 875
+
+      - id: 229735 # Prized Gladiator's Chestplate [plate chest]
+        costs:
+          1602: 875
+
+      - id: 229750 # Prized Gladiator's Plate Vambraces [plate wrists]
+        costs:
+          1602: 525
+
+      - id: 229748 # Prized Gladiator's Plate Wristguards [plate wrists]
+        costs:
+          1602: 525
+
+      - id: 229738 # Prized Gladiator's Plate Gauntlets [plate hands]
+        costs:
+          1602: 700
+
+      - id: 229739 # Prized Gladiator's Plate Handguards [plate hands]
+        costs:
+          1602: 700
+
+      - id: 229746 # Prized Gladiator's Plate Girdle [plate waist]
+        costs:
+          1602: 700
+
+      - id: 229747 # Prized Gladiator's Plate Greatbelt [plate waist]
+        costs:
+          1602: 700
+
+      - id: 229742 # Prized Gladiator's Plate Legguards [plate legs]
+        costs:
+          1602: 875
+
+      - id: 229743 # Prized Gladiator's Plate Tasses [plate legs]
+        costs:
+          1602: 875
+
+      - id: 229737 # Prized Gladiator's Plate Stompers [plate feet]
+        costs:
+          1602: 700
+
+      - id: 229736 # Prized Gladiator's Plate Warboots [plate feet]
+        costs:
+          1602: 700
+
+      # Priest set=4014
+
+      - id: 229548 # Prized Gladiator's Silk Guise [cloth head]
+        costs:
+          1602: 875
+
+      - id: 229547 # Prized Gladiator's Silk Hood [cloth head]
+        costs:
+          1602: 875
+
+      - id: 229552 # Prized Gladiator's Silk Amice [cloth shoulders]
+        costs:
+          1602: 700
+
+      - id: 229551 # Prized Gladiator's Silk Mantle [cloth shoulders]
+        costs:
+          1602: 700
+
+      - id: 229557 # Prized Gladiator's Cloak [cloak]
+        costs:
+          1602: 525
+
+      - id: 229558 # Prized Gladiator's Drape [cloak]
+        costs:
+          1602: 525
+
+      - id: 229559 # Prized Gladiator's Shawl [cloak]
+        costs:
+          1602: 525
+
+      - id: 229541 # Prized Gladiator's Silk Chestwrap [cloth chest]
+        costs:
+          1602: 875
+
+      - id: 229542 # Prized Gladiator's Silk Vest [cloth chest]
+        costs:
+          1602: 875
+
+      - id: 229556 # Prized Gladiator's Silk Armbands [cloth wrists]
+        costs:
+          1602: 525
+
+      - id: 229555 # Prized Gladiator's Silk Wristwraps [cloth wrists]
+        costs:
+          1602: 525
+
+      - id: 229545 # Prized Gladiator's Silk Gloves [cloth hands]
+        costs:
+          1602: 700
+
+      - id: 229546 # Prized Gladiator's Silk Handwraps [cloth hands]
+        costs:
+          1602: 700
+
+      - id: 229554 # Prized Gladiator's Silk Belt [cloth waist]
+        costs:
+          1602: 700
+
+      - id: 229553 # Prized Gladiator's Silk Cord [cloth waist]
+        costs:
+          1602: 700
+
+      - id: 229549 # Prized Gladiator's Silk Leggings [cloth legs]
+        costs:
+          1602: 875
+
+      - id: 229550 # Prized Gladiator's Silk Trousers [cloth legs]
+        costs:
+          1602: 875
+
+      - id: 229543 # Prized Gladiator's Silk Slippers [cloth feet]
+        costs:
+          1602: 700
+
+      - id: 229544 # Prized Gladiator's Silk Treads [cloth feet]
+        costs:
+          1602: 700
+
+      # Rogue set=4028
+
+      - id: 229643 # Prized Gladiator's Leather Helm [leather head]
+        costs:
+          1602: 875
+
+      - id: 229644 # Prized Gladiator's Leather Mask [leather head]
+        costs:
+          1602: 875
+
+      - id: 229648 # Prized Gladiator's Leather Shoulderpads [leather shoulders]
+        costs:
+          1602: 700
+
+      - id: 229647 # Prized Gladiator's Leather Spaulders [leather shoulders]
+        costs:
+          1602: 700
+
+      - id: 229653 # Prized Gladiator's Cloak [cloak]
+        costs:
+          1602: 525
+
+      - id: 229654 # Prized Gladiator's Drape [cloak]
+        costs:
+          1602: 525
+
+      - id: 229655 # Prized Gladiator's Shawl [cloak]
+        costs:
+          1602: 525
+
+      - id: 229638 # Prized Gladiator's Leather Jerkin [leather chest]
+        costs:
+          1602: 875
+
+      - id: 229637 # Prized Gladiator's Leather Vest [leather chest]
+        costs:
+          1602: 875
+
+      - id: 229652 # Prized Gladiator's Leather Wristguards [leather wrists]
+        costs:
+          1602: 525
+
+      - id: 229651 # Prized Gladiator's Leather Wristwraps [leather wrists]
+        costs:
+          1602: 525
+
+      - id: 229641 # Prized Gladiator's Leather Gloves [leather hands]
+        costs:
+          1602: 700
+
+      - id: 229642 # Prized Gladiator's Leather Grips [leather hands]
+        costs:
+          1602: 700
+
+      - id: 229649 # Prized Gladiator's Leather Belt [leather waist]
+        costs:
+          1602: 700
+
+      - id: 229650 # Prized Gladiator's Leather Strap [leather waist]
+        costs:
+          1602: 700
+
+      - id: 229645 # Prized Gladiator's Leather Breeches [leather legs]
+        costs:
+          1602: 875
+
+      - id: 229646 # Prized Gladiator's Leather Legwraps [leather legs]
+        costs:
+          1602: 875
+
+      - id: 229639 # Prized Gladiator's Leather Boots [leather feet]
+        costs:
+          1602: 700
+
+      - id: 229640 # Prized Gladiator's Leather Treads [leather feet]
+        costs:
+          1602: 700
+
+      # Shaman set=4016
+
+      - id: 229701 # Prized Gladiator's Chain Faceguard [mail head]
+        costs:
+          1602: 875
+
+      - id: 229700 # Prized Gladiator's Chain Helm [mail head]
+        costs:
+          1602: 875
+
+      - id: 229704 # Prized Gladiator's Chain Monnion [mail shoulders]
+        costs:
+          1602: 700
+
+      - id: 229705 # Prized Gladiator's Chain Shoulderguard [mail shoulders]
+        costs:
+          1602: 700
+
+      - id: 229710 # Prized Gladiator's Cloak [cloak]
+        costs:
+          1602: 525
+
+      - id: 229711 # Prized Gladiator's Drape [cloak]
+        costs:
+          1602: 525
+
+      - id: 229712 # Prized Gladiator's Shawl [cloak]
+        costs:
+          1602: 525
+
+      - id: 229695 # Prized Gladiator's Chain Tunic [mail chest]
+        costs:
+          1602: 875
+
+      - id: 229694 # Prized Gladiator's Chain Vest [mail chest]
+        costs:
+          1602: 875
+
+      - id: 229709 # Prized Gladiator's Chain Bracers [mail wrists]
+        costs:
+          1602: 525
+
+      - id: 229708 # Prized Gladiator's Chain Wristguards [mail wrists]
+        costs:
+          1602: 525
+
+      - id: 229698 # Prized Gladiator's Chain Gauntlets [mail hands]
+        costs:
+          1602: 700
+
+      - id: 229699 # Prized Gladiator's Chain Handguards [mail hands]
+        costs:
+          1602: 700
+
+      - id: 229706 # Prized Gladiator's Chain Belt [mail waist]
+        costs:
+          1602: 700
+
+      - id: 229707 # Prized Gladiator's Chain Girdle [mail waist]
+        costs:
+          1602: 700
+
+      - id: 229703 # Prized Gladiator's Chain Breeches [mail legs]
+        costs:
+          1602: 875
+
+      - id: 229702 # Prized Gladiator's Chain Leggings [mail legs]
+        costs:
+          1602: 875
+
+      - id: 229697 # Prized Gladiator's Chain Boots [mail feet]
+        costs:
+          1602: 700
+
+      - id: 229696 # Prized Gladiator's Chain Sabatons [mail feet]
+        costs:
+          1602: 700
+
+      # Warlock set=4030
+
+      - id: 229567 # Prized Gladiator's Silk Guise [cloth head]
+        costs:
+          1602: 875
+
+      - id: 229566 # Prized Gladiator's Silk Hood [cloth head]
+        costs:
+          1602: 875
+
+      - id: 229571 # Prized Gladiator's Silk Amice [cloth shoulders]
+        costs:
+          1602: 700
+
+      - id: 229570 # Prized Gladiator's Silk Mantle [cloth shoulders]
+        costs:
+          1602: 700
+
+      - id: 229576 # Prized Gladiator's Cloak [cloak]
+        costs:
+          1602: 525
+
+      - id: 229577 # Prized Gladiator's Drape [cloak]
+        costs:
+          1602: 525
+
+      - id: 229578 # Prized Gladiator's Shawl [cloak]
+        costs:
+          1602: 525
+
+      - id: 229560 # Prized Gladiator's Silk Raiment [cloth chest]
+        costs:
+          1602: 875
+
+      - id: 229561 # Prized Gladiator's Silk Vestments [cloth chest]
+        costs:
+          1602: 875
+
+      - id: 229575 # Prized Gladiator's Silk Armbands [cloth wrists]
+        costs:
+          1602: 525
+
+      - id: 229574 # Prized Gladiator's Silk Wristwraps [cloth wrists]
+        costs:
+          1602: 525
+
+      - id: 229564 # Prized Gladiator's Silk Gloves [cloth hands]
+        costs:
+          1602: 700
+
+      - id: 229565 # Prized Gladiator's Silk Handwraps [cloth hands]
+        costs:
+          1602: 700
+
+      - id: 229573 # Prized Gladiator's Silk Belt [cloth waist]
+        costs:
+          1602: 700
+
+      - id: 229572 # Prized Gladiator's Silk Cord [cloth waist]
+        costs:
+          1602: 700
+
+      - id: 229568 # Prized Gladiator's Silk Leggings [cloth legs]
+        costs:
+          1602: 875
+
+      - id: 229569 # Prized Gladiator's Silk Trousers [cloth legs]
+        costs:
+          1602: 875
+
+      - id: 229562 # Prized Gladiator's Silk Slippers [cloth feet]
+        costs:
+          1602: 700
+
+      - id: 229563 # Prized Gladiator's Silk Treads [cloth feet]
+        costs:
+          1602: 700
+
+      # Warrior set=4031
+
+      - id: 229760 # Prized Gladiator's Plate Helm [plate head]
+        costs:
+          1602: 875
+
+      - id: 229761 # Prized Gladiator's Plate Helmet [plate head]
+        costs:
+          1602: 875
+
+      - id: 229766 # Prized Gladiator's Plate Pauldrons [plate shoulders]
+        costs:
+          1602: 700
+
+      - id: 229765 # Prized Gladiator's Plate Shoulders [plate shoulders]
+        costs:
+          1602: 700
+
+      - id: 229771 # Prized Gladiator's Cloak [cloak]
+        costs:
+          1602: 525
+
+      - id: 229772 # Prized Gladiator's Drape [cloak]
+        costs:
+          1602: 525
+
+      - id: 229773 # Prized Gladiator's Shawl [cloak]
+        costs:
+          1602: 525
+
+      - id: 229754 # Prized Gladiator's Chestguard [plate chest]
+        costs:
+          1602: 875
+
+      - id: 229755 # Prized Gladiator's Chestplate [plate chest]
+        costs:
+          1602: 875
+
+      - id: 229770 # Prized Gladiator's Plate Vambraces [plate wrists]
+        costs:
+          1602: 525
+
+      - id: 229769 # Prized Gladiator's Plate Wristguards [plate wrists]
+        costs:
+          1602: 525
+
+      - id: 229758 # Prized Gladiator's Plate Gauntlets [plate hands]
+        costs:
+          1602: 700
+
+      - id: 229759 # Prized Gladiator's Plate Handguards [plate hands]
+        costs:
+          1602: 700
+
+      - id: 229767 # Prized Gladiator's Plate Girdle [plate waist]
+        costs:
+          1602: 700
+
+      - id: 229768 # Prized Gladiator's Plate Greatbelt [plate waist]
+        costs:
+          1602: 700
+
+      - id: 229762 # Prized Gladiator's Plate Legguards [plate legs]
+        costs:
+          1602: 875
+
+      - id: 229763 # Prized Gladiator's Plate Wargreaves [plate legs]
+        costs:
+          1602: 875
+
+      - id: 229757 # Prized Gladiator's Plate Stompers [plate feet]
+        costs:
+          1602: 700
+
+      - id: 229756 # Prized Gladiator's Plate Warboots [plate feet]
+        costs:
+          1602: 700
+
+      # 0 set=4193
+
+      - id: 229791 # Prized Gladiator's Bludgeon [1h ? mace]
+        costs:
+          1602: 1225
+
+      - id: 229794 # Prized Gladiator's Flail [1h ? mace]
+        costs:
+          1602: 875
+
+      # 0 set=4193
+
+      - id: 229803 # Prized Gladiator's Skewer [1h ? sword]
+        costs:
+          1602: 900
+
+      - id: 229802 # Prized Gladiator's Torchblade [1h ? sword]
+        costs:
+          1602: 900
+
+      # 0 set=4193
+
+      - id: 229786 # Prized Gladiator's Dagger [? dagger]
+        costs:
+          1602: 875
+
+      - id: 229795 # Prized Gladiator's Pincer [? dagger]
+        costs:
+          1602: 1225
+
+      # 0 set=4193
+
+      - id: 229796 # Prized Gladiator's Detonator [fist]
+        costs:
+          1602: 875
+
+      - id: 229785 # Prized Gladiator's Last Resort [fist]
+        costs:
+          1602: 875
+
+      # 0 set=4193
+
+      - id: 229787 # Prized Gladiator's Warglaive [warglaive]
+        costs:
+          1602: 875
+
+      # 0 set=4193
+
+      - id: 229800 # Prized Gladiator's Greatsaw [2h ? axe]
+        costs:
+          1602: 1750
+
+      # 0 set=4193
+
+      - id: 229801 # Prized Gladiator's Pulverizer [2h ? mace]
+        costs:
+          1602: 1750
+
+      # 0 set=4193
+
+      - id: 229788 # Prized Gladiator's Drill [polearm]
+        costs:
+          1602: 1750
+
+      # 0 set=4193
+
+      - id: 229798 # Prized Gladiator's Greatstaff [staff]
+        costs:
+          1602: 1750
+
+      - id: 229804 # Prized Gladiator's Pylon [staff]
+        costs:
+          1602: 1750
+
+      - id: 229789 # Prized Gladiator's Staff [staff]
+        costs:
+          1602: 1750
+
+      # 0 set=4193
+
+      - id: 229790 # Prized Gladiator's Bow [bow]
+        costs:
+          1602: 1750
+
+      # 0 set=4193
+
+      - id: 229797 # Prized Gladiator's Blaster [gun]
+        costs:
+          1602: 1750
+
+      # 0 set=4193
+
+      - id: 229792 # Prized Gladiator's Army Knife [off-hand]
+        costs:
+          1602: 525
+
+      - id: 232620 # Prized Gladiator's Conduit [off-hand]
+        costs:
+          1602: 525
+
+      # 0
+
+      - id: 229799 # Prized Gladiator's Bulwark [shield]
+        costs:
+          1602: 525
+
+      - id: 229793 # Prized Gladiator's Gasket [shield]
+        costs:
+          1602: 525

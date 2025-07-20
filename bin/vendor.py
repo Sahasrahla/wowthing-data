@@ -113,21 +113,21 @@ SORT_SUBCLASS = {
     (4, -6): 30, # Cloak
     (2, 0): 100, # 1h axe
     (2, 4): 101, # 1h mace
-    (2, 8): 102, # 1h sword
-    (2, 15): 120, # dagger
-    (2, 13): 121, # fist
-    (2, 19): 122, # wand
-    (2, 9): 123, # warglaive
+    (2, 7): 102, # 1h sword
+    (2, 15): 103, # dagger
+    (2, 13): 104, # fist
+    (2, 9): 105, # warglaive
     (2, 1): 110, # 2h axe
     (2, 5): 111, # 2h mace
-    (2, 9): 112, # 2h sword
-    (2, 6): 130, # polearm
-    (2, 10): 131, # staff
-    (2, 2): 140, # bow
-    (2, 18): 141, # crossbow
-    (2, 3): 142, # gun
-    (4, -5): 150, # off-hand
-    (4, 6): 151, # shield
+    (2, 8): 112, # 2h sword
+    (2, 6): 113, # polearm
+    (2, 10): 114, # staff
+    (2, 2): 120, # bow
+    (2, 18): 121, # crossbow
+    (2, 3): 122, # gun
+    (2, 19): 123, # wand
+    (4, -5): 130, # off-hand
+    (4, 6): 131, # shield
 }
 SORT_KEY = {
     1: 1, # head
@@ -156,7 +156,7 @@ STANDING = {
 
 MAPPER_RE = re.compile(r'var g_mapperData = (.*?)\;$', re.MULTILINE)
 NPC_RE = re.compile(r'^\$\.extend\(g_npcs\[\d+], (.*?)\)\;$', re.MULTILINE)
-SELLS_RE = re.compile(r'^new Listview\(.*?id: \'sells\'.*?data:\s*(.*?)\}\)\;$', re.MULTILINE)
+SELLS_RE = re.compile(r'^new Listview\(.*?id: \'(drops|sells)\'.*?data:\s*(.*?)\}\)\;$', re.MULTILINE)
 
 
 def main():
@@ -193,8 +193,13 @@ def main():
             item_to_set[item_id] = set_id
 
 
-    r = requests.get(sys.argv[1], headers=HEADERS)
+    url = sys.argv[1]
+    if url.isdigit():
+        url = f'https://www.wowhead.com/npc={url}'
+
+    r = requests.get(url, headers=HEADERS)
     expand = len(sys.argv) >= 3 and sys.argv[2] == 'e'
+    no_gold = len(sys.argv) >= 3 and sys.argv[2] == 'nogold'
 
     m = MAPPER_RE.search(r.text)
     mapper = None
@@ -208,12 +213,20 @@ def main():
 
     npc = json.loads(m.group(1))
 
-    m = SELLS_RE.search(r.text)
+    m = SELLS_RE.findall(r.text)
     if not m:
         print('sells_re fail')
         sys.exit(1)
+    
+    sells_data = m[0]
+    if sells_data[0] != 'sells':
+        for match in m:
+            if match[0] == 'sells':
+                sells_data = match
 
-    item_json = re.sub(r'(standing|react|stack|avail|cost):', r'"\1":', m.group(1))
+    contents_type = sells_data[0]
+
+    item_json = re.sub(r'(standing|react|stack|avail|cost):', r'"\1":', sells_data[1])
     item_json = re.sub(r',\]', ',0]', item_json)
     item_json = re.sub(r'\[,', '[0,', item_json)
     items = json.loads(item_json)
@@ -239,22 +252,31 @@ def main():
     if not expand:
         print(f'things:')
         print(f'  - id: {npc["id"]}')
-        print(f'    type: "vendor"')
+
+        if contents_type == 'drops':
+            print(f'    type: "npc"')
+        else:
+            print(f'    type: "vendor"')
+
         print(f'    name: "{npc["name"]}"')
         if 'tag' in npc:
             print(f'    note: "{npc["tag"]}"')
 
+        if contents_type == 'drops':
+            print(f'    reset: "daily"')
+            print(f'    trackingQuestId: ')
+
         print()
         print('    locations:')
 
-        if mapper is not None:
+        if mapper is not None and mapper != []:
             for map_set in mapper.values():
                 if isinstance(map_set, dict):
                     map_set = map_set.values()
 
                 for map in map_set:
                     map_name = map.get('uiMapName', 'unknown').lower().replace(' ', '_').replace('-', '_').replace("'", '')
-                    print(f'      {map_name}:')
+                    print(f'      here: # {map_name}')
                     
                     for coord in map['coords']:
                         print(f'        - {coord[0]} {coord[1]}{faction}')
@@ -264,11 +286,11 @@ def main():
         print('    contents:')
 
     sorted_items = sorted(items, key=lambda item: [
-        -item["standing"],
+        -item.get("standing", 0),
         SORT_CHRCLASS.get(item.get("reqclass", 0), 999),
         SORT_SUBCLASS.get(
             (item["classs"], item.get("subclass", 0)),
-            SORT_CLASS.get(item["classs"], item["classs"] + 100 + item.get("subclass", 0)),
+            SORT_CLASS.get(item["classs"], item["classs"] + 500 + item.get("subclass", 0)),
         ),
         item_to_set.get(item["id"], 99999),
         SORT_KEY.get(item.get("slot", 0), item.get("slot", 0) + 100),
@@ -288,9 +310,25 @@ def main():
         set_id = item_to_set.get(item['id'], 0)
 
         if item_slot in SKIP_INVENTORY_SLOT:
-            if not expand:
+            if not expand and contents_type != 'drops':
                 print(f'      # Skipped id={item["id"]} name={item["name"]} slot={item_slot}')
             continue
+
+        costs = item.get('cost', [[0, [], []]])[0]
+        if no_gold and costs[0] > 0 and len(costs[1]) == 0 and len(costs[2]) == 0:
+            continue
+
+        # weird deprecated MoP honor
+        if costs[0] == 0 and len(costs[1]) == 1 and len(costs[2]) == 0 and costs[1][0][0] == 392:
+            continue
+
+        if contents_type == 'drops':
+            count = item.get('count', 0)
+            out_of = item.get('outof', 0)
+            if count and out_of and count / out_of < 0.005:
+                # print(f'      # Skipped id={item["id"]} name={item["name"]} slot={item_slot}')
+                continue
+
 
         if expand:
             if char_class != 0:
@@ -333,25 +371,28 @@ def main():
                 type_str = f' [{" ".join(type_parts)}]'
 
             print(f'      - id: {item["id"]} # {item["name"]}{type_str}')
-            print( '        costs:')
 
-            costs = item['cost']
-            if costs[0] > 0:
-                print(f'        0: {max(1, math.floor(costs[0] / 10000))} # Gold')
+            if contents_type != 'drops':
+                print( '        costs:')
 
-            if len(costs) >= 2:
-                for cost in costs[1]:
-                    print(f'        {cost[0]}: {cost[1]}')
+                # print(costs)
+                if costs[0] > 0:
+                    print(f'          0: {max(1, math.floor(costs[0] / 10000))} # Gold')
 
-            if len(costs) == 3:
-                for cost in costs[2]:
-                    print(f'        1{cost[0]:06}: {cost[1]}')
-            
-            if item['standing'] > 0:
-                print(f'        requirements:')
-                print(f'          - "reputation: 0 {STANDING.get(item["standing"], item["standing"])}"')
+                if len(costs) >= 2:
+                    # print(costs)
+                    for cost in costs[1]:
+                        print(f'          {cost[0]}: {cost[1]}')
 
-            #print('>', item)
+                if len(costs) == 3:
+                    for cost in costs[2]:
+                        print(f'          1{cost[0]:06}: {cost[1]}')
+                
+                if item.get('standing', 0) > 0:
+                    print(f'        requirements:')
+                    print(f'          - "reputation: 0 {STANDING.get(item["standing"], item["standing"])}"')
+
+            # print('>', item)
 
 
 if __name__ == '__main__':

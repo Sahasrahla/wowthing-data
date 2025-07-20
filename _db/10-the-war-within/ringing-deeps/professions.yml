@@ -14,7 +14,7 @@ things:
     trackingQuestId: 83843
     locations:
       here:
-        - "64.9 61.8" # THE_RINGING_DEEPS
+        - "60.8 61.8"
     requirements:
       - "profession alchemy tww 1"
     contents:
@@ -29,7 +29,7 @@ things:
     trackingQuestId: 83842
     locations:
       here:
-        - "42.2 24.1" # THE_RINGING_DEEPS
+        - "38 24.1"
     requirements:
       - "profession alchemy tww 1"
     contents:
@@ -46,7 +46,7 @@ things:
     trackingQuestId: 83851
     locations:
       here:
-        - "60.6 53.8" # THE_RINGING_DEEPS
+        - "56.6 53.8"
     requirements:
       - "profession blacksmithing tww 1"
     contents:
@@ -59,9 +59,10 @@ things:
     name: "{item:226278}"
     reset: "never"
     trackingQuestId: 83850
+    zoneMapsGroupId: 1
     locations:
       here:
-        - "47.7 33.2" # THE_RINGING_DEEPS
+        - "43.7 33.2"
     requirements:
       - "profession blacksmithing tww 1"
     contents:
@@ -78,7 +79,7 @@ things:
     trackingQuestId: 83861
     locations:
       here:
-        - "67.2 65.9" # THE_RINGING_DEEPS
+        - "63.2 65.9"
     requirements:
       - "profession enchanting tww 1"
     contents:
@@ -93,7 +94,7 @@ things:
     trackingQuestId: 83860
     locations:
       here:
-        - "44.6 22.1" # THE_RINGING_DEEPS
+        - "40.6 22.1"
     requirements:
       - "profession enchanting tww 1"
     contents:
@@ -110,7 +111,7 @@ things:
     trackingQuestId: 83869
     locations:
       here:
-        - "64.5 58.8" # THE_RINGING_DEEPS
+        - "60.5 58.8"
     requirements:
       - "profession engineering tww 1"
     contents:
@@ -125,7 +126,7 @@ things:
     trackingQuestId: 83868
     locations:
       here:
-        - "42.6 27.3" # THE_RINGING_DEEPS
+        - "38.6 27.3"
     requirements:
       - "profession engineering tww 1"
     contents:
@@ -140,9 +141,10 @@ things:
     name: "{item:226302}"
     reset: "never"
     trackingQuestId: 83876
+    zoneMapsGroupId: 1
     locations:
       here:
-        - "48.2 35.0" # THE_RINGING_DEEPS
+        - "44.2 35.0"
     requirements:
       - "profession herbalism tww 1"
     contents:
@@ -157,7 +159,7 @@ things:
     trackingQuestId: 83877
     locations:
       here:
-        - "52.8 65.8" # THE_RINGING_DEEPS
+        - "48.8 65.8"
     requirements:
       - "profession herbalism tww 1"
     contents:
@@ -174,7 +176,7 @@ things:
     trackingQuestId: 83885
     locations:
       here:
-        - "62.4 58.0" # THE_RINGING_DEEPS
+        - "58.4 58.0"
     requirements:
       - "profession inscription tww 1"
     contents:
@@ -187,9 +189,10 @@ things:
     name: "{item:226310}"
     reset: "never"
     trackingQuestId: 83884
+    zoneMapsGroupId: 1
     locations:
       here:
-        - "48.5 34.3" # THE_RINGING_DEEPS
+        - "44.5 34.3"
     requirements:
       - "profession inscription tww 1"
     contents:
@@ -204,9 +207,10 @@ things:
     name: "{item:226318}"
     reset: "never"
     trackingQuestId: 83892
+    zoneMapsGroupId: 1
     locations:
       here:
-        - "48.5 35.2" # THE_RINGING_DEEPS
+        - "44.5 35.2"
     requirements:
       - "profession jewelcrafting tww 1"
     contents:
@@ -221,7 +225,7 @@ things:
     trackingQuestId: 83893
     locations:
       here:
-        - "57.0 54.6" # THE_RINGING_DEEPS
+        - "53.0 54.6"
     requirements:
       - "profession jewelcrafting tww 1"
     contents:
@@ -229,37 +233,7 @@ things:
         id: 226319 # Jeweler's Delicate Drill
         note: "{price:3|2791}" # Jewelcrafting Knowledge
 
-  - type: "object"
-    id: 455972
-    name: "{item:226321}"
-    reset: "never"
-    trackingQuestId: 83895
-    locations:
-      here:
-        - "44.7 50.9" # THE_RINGING_DEEPS
-    requirements:
-      - "profession jewelcrafting tww 1"
-    contents:
-      - type: "item"
-        id: 226321 # Librarian's Magnifiers
-        note: "{price:3|2791}" # Jewelcrafting Knowledge
-
   # Leatherworking
-
-  - type: "object"
-    id: 455968
-    name: "{item:226325}"
-    reset: "never"
-    trackingQuestId: 83899
-    locations:
-      here:
-        - "58.6 30.7" # THE_RINGING_DEEPS
-    requirements:
-      - "profession leatherworking tww 1"
-    contents:
-      - type: "item"
-        id: 226325 # Dornogal Craftsman's Flat Knife
-        note: "{price:3|2792}" # Leatherworking Knowledge
 
   - type: "object"
     id: 455966
@@ -268,7 +242,7 @@ things:
     trackingQuestId: 83901
     locations:
       here:
-        - "64.3 66.3" # THE_RINGING_DEEPS
+        - "60.3 66.3"
     requirements:
       - "profession leatherworking tww 1"
     contents:
@@ -281,9 +255,10 @@ things:
     name: "{item:226326}"
     reset: "never"
     trackingQuestId: 83900
+    zoneMapsGroupId: 1
     locations:
       here:
-        - "47.1 34.9" # THE_RINGING_DEEPS
+        - "43.1 34.9"
     requirements:
       - "profession leatherworking tww 1"
     contents:
@@ -300,7 +275,7 @@ things:
     trackingQuestId: 83908
     locations:
       here:
-        - "49.4 27.5" # THE_RINGING_DEEPS
+        - "45.4 27.5"
     requirements:
       - "profession mining tww 1"
     contents:
@@ -315,7 +290,7 @@ things:
     trackingQuestId: 83909
     locations:
       here:
-        - "66.2 66.2" # THE_RINGING_DEEPS
+        - "62.2 66.2"
     requirements:
       - "profession mining tww 1"
     contents:
@@ -332,7 +307,7 @@ things:
     trackingQuestId: 83916
     locations:
       here:
-        - "47.3 28.3" # THE_RINGING_DEEPS
+        - "43.3 28.3"
     requirements:
       - "profession skinning tww 1"
     contents:
@@ -347,7 +322,7 @@ things:
     trackingQuestId: 83917
     locations:
       here:
-        - "65.7 61.9" # THE_RINGING_DEEPS
+        - "61.7 61.9"
     requirements:
       - "profession skinning tww 1"
     contents:
@@ -364,7 +339,7 @@ things:
     trackingQuestId: 83925
     locations:
       here:
-        - "64.2 60.2" # THE_RINGING_DEEPS
+        - "60.2 60.2"
     requirements:
       - "profession tailoring tww 1"
     contents:
@@ -377,9 +352,10 @@ things:
     name: "{item:226350}"
     reset: "never"
     trackingQuestId: 83924
+    zoneMapsGroupId: 1
     locations:
       here:
-        - "48.8 32.8" # THE_RINGING_DEEPS
+        - "44.8 32.8"
     requirements:
       - "profession tailoring tww 1"
     contents:
